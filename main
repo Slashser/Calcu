@@ -1,0 +1,60 @@
+/*Hecho por Daniel Alvarez*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main(void)
+{
+	int opc;
+	do
+	{
+		printf("\n\t\tCalculadora\n\nHecha por: Daniel Alvarez\n\n\tElija una opcion del menu\n");
+		printf("1 - Suma\n2 - Resta\n3 - Multiplicacion\n4 - Division\n5 - Salir\n..................... ");
+		fflush(stdin);
+		scanf("%d", &opc);
+		switch(opc)
+		{
+			float a, b, c;
+			case 1:
+				printf("\nDa el primer numero a sumar: ");
+				scanf("%f", &a);
+				printf("\nDa el segundo numero a sumar: ");
+				scanf("%f", &b);
+				c=a+b;
+				printf("\nEl resultado es: %.2f\n", c);
+				break;
+			case 2:
+				printf("\nDa el primer numero a restar: ");
+				scanf("%f", &a);
+				printf("\nDa el segundo numero a restar: ");
+				scanf("%f", &b);
+				c=a-b;
+				printf("\nEl resultado es: %.2f\n", c);
+				break;
+			case 3:
+				printf("\nDa el primer numero a multiplicar: ");
+				scanf("%f", &a);
+				printf("\nDa el segundo numero a multiplicar: ");
+				scanf("%f", &b);
+				c=a*b;
+				printf("\nEl resultado es: %.2f\n", c);
+				break;
+			case 4:
+				printf("\nDa el dividendo: ");
+				scanf("%f", &a);
+				printf("\nDa el divisor: ");
+				scanf("%f", &b);
+				c=a/b;
+				printf("\nEl cociente es: %.2f\n", c);
+				break;
+			case 5:
+				printf("\nHasta luego");
+				break;
+			default:
+				printf("\nIngresa una opcion valida\nPresione enter para continuar\n");
+				break;
+		}
+		getch();
+		system("cls");
+	}
+	while(opc!=5);
+}
