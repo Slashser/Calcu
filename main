@@ -24,8 +24,8 @@ int main(void)
 				printf("\naqui va lo que hara la opcion: ");
 				break;
 			case 5:
-				printf("\naqui va lo que hara la opcion: ");
-				break;
+				printf("\nHasta luego");
+ 				break;
 			default:
 				printf("\nIngresa una opcion valida\nPresione enter para continuar\n");
 				break;
