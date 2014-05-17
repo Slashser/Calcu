@@ -5,26 +5,30 @@ int main(void)
 	int opc;
 	do
 	{
-		printf("\n\t\tMenu\n\tElija una opcion del menu\n\n");
-		printf("1 - Opcion 1\n2 - Opcion 2\n3 - Opcion 3\n4 - Opcion 4\n5 - Salir\n..................... ");
+		printf("\n\t\tMenu\n\n");
+		printf("1 - Opcion 1\n2 - Opcion 2\n3 - Opcion 3\n4 - Opcion 4\n5 - Salir\n\nElija una opcion del menu.......... ");
 		fflush(stdin);
 		scanf("%d", &opc);
 		switch(opc)
 		{
 			case 1:
 				printf("\naqui va lo que hara la opcion: ");
+				printf("\npara continuar presione enter");
 				break;
 			case 2:
 				printf("\naqui va lo que hara la opcion: ");
+				printf("\npara continuar presione enter");
 				break;
 			case 3:
 				printf("\naqui va lo que hara la opcion: ");
+				printf("\npara continuar presione enter");
 				break;
 			case 4:
 				printf("\naqui va lo que hara la opcion: ");
+				printf("\npara continuar presione enter");
 				break;
 			case 5:
-				printf("\nHasta luego");
+				printf("\nPrograma hecho por: \nHasta luego");
  				break;
 			default:
 				printf("\nIngresa una opcion valida\nPresione enter para continuar\n");
